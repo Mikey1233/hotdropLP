@@ -1,0 +1,130 @@
+.hot-drop__control{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+.hot-drop__control-content{
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    text-align: right;
+    gap: 2rem;
+    transition: all .7s;
+
+}
+.hot-drop__control-img img{
+    width: 70%;
+    
+}
+.hot-drop__control-img{
+    opacity: 1;
+    transition: opacity .7s;
+}
+.hot-drop__control-content h2{
+    font-family: var(--font2);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 45px;
+}
+.hot-drop__control-content p{
+    font-family: var(--font1);
+    font-size: 25px;
+    line-height: 1.5em;
+}
+.fade{
+    opacity: 0.1;
+}
+@media screen and (max-width:1025px){
+    .hot-drop__control{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .fade{
+        opacity: 1;
+    }
+    .hot-drop__control-content{
+        order: -1;
+        text-align: center;
+    }
+    .hot-drop__control-img{
+        display: flex;
+    justify-content: center;
+    }
+}
+@media screen and (max-width:550px) {
+    .hot-drop__control-img img{
+        width: 60%;
+    }
+    .hot-drop__control-content{
+        padding: 1rem;
+    }
+    .hot-drop__control-content h2{
+        
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .hot-drop__control-content p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .fade{
+        opacity: 0.1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Marquee Effect</title>
+  <style>
+    .marquee-container {
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+      border: 1px solid #ccc;
+    } */
+
+    /* .marquee-content {
+      display: inline-block;
+      padding: 10px; /* Add padding for better visibility */
+      /* animation: marqueeAnimation 10s linear infinite; Adjust the duration as needed */
+    /* }  */
+
+    /* @keyframes marqueeAnimation {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <!-- Your content goes here -->
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+  </div>
+
+</body>
+</html> */

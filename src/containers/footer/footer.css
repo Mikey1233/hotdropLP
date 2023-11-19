@@ -1,0 +1,108 @@
+.hot-drop__footer {
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(#444, #000);
+  color: white;
+  font-family: var(--font2);
+}
+.hot-drop__footer-brands {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5.5rem;
+  align-items: flex-start;
+}
+.mobile-brand{
+    display: none;
+}
+.hot-drop__footer-brands__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hot-drop__footer-brands__logo img {
+  width: 7.5rem;
+  margin-bottom: 2.4rem;
+  cursor: pointer;
+}
+
+.hot-drop__footer-brands__nav {
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: right;
+}
+.hot-drop__footer-brands__nav nav ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: right;
+  font-size: 14px;
+  font-weight: 600;
+  list-style-type: none;
+  cursor: pointer;
+  /* margin-bottom: 2rem; */
+}
+
+.hot-drop__footer-copyrights {
+  padding: 2.5rem 0 10rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hot-drop__footer-copyrights p {
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-family: var(--font1);
+}
+.hot-drop__footer-copyrights-img {
+  display: flex;
+  gap: 1rem;
+}
+.hot-drop__footer-copyrights-img img {
+  width: 90%;
+  cursor: pointer;
+}
+@media screen and (max-width: 770px) {
+  .hot-drop__footer-brands {
+    flex-direction: column;
+  }
+  .hot-drop__footer-brands__nav nav ul {
+    flex-direction: column;
+    justify-content: left;
+    gap: 3rem;
+  }
+  .mobile-brand{
+    display: block;
+    width: 7.5rem;
+  }
+  .desktop-brand{
+    display: none;
+  }
+  .hot-drop__footer-brands__nav {
+    text-align: left;
+    gap: 3rem;
+  }
+  .hot-drop__footer-copyrights {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 4rem 0 8rem 0;
+  }
+  .hot-drop__footer-copyrights p {
+    order: 1;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .hot-drop__footer-copyrights-img img{
+    width: 80%;
+  }
+  .hot-drop__footer{
+    padding-left: 4rem;
+    padding-right: 0.2rem;
+  }
+}

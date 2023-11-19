@@ -1,0 +1,55 @@
+.hot-drop__testimonials{
+    display: grid;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+.overflow{
+    overflow-x: hidden;
+
+}
+.hot1,.hot2{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 15px;
+
+}
+.hot-drop__testimonials-title {
+    /* text-align: center; */
+    display: grid;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+.hot1{
+    transform: translateX(100px);
+    width: 100%;
+    animation: marqueeAnimation 10s linear infinite; 
+
+}
+.hot2{
+  /* transform: translateX(100px); */
+  width: 100%;
+  animation: marqueeAnimation2 10s linear infinite; 
+
+}
+  .marquee-content {
+      display: inline-block;
+      padding: 10px; /* Add padding for better visibility */
+      animation: marqueeAnimation 0.50s linear infinite; 
+    }  
+
+     @keyframes marqueeAnimation {
+      from {
+        transform: translateX(1-100%);
+      }
+      to {
+        transform: translateX(20%);
+      }
+    } 
+    @keyframes marqueeAnimation2 {
+      from {
+        transform: translateX(-1-100%);
+      }
+      to {
+        transform: translateX(-20%);
+      }
+    } 

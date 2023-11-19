@@ -1,0 +1,203 @@
+.Hot-drop__header{
+    display: grid;
+    /* padding-top: 3rem; */
+}
+/* style for menu tab for mobile */
+.mobile{
+    display: none;
+}
+.Hot-drop__header nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 2rem;
+    padding-right: 150px;
+    padding-left: 135px;
+
+    background-color: #000;
+    z-index: 1;
+    box-shadow: 1px 1px 9px 3px rgba(0, 0, 0);
+
+}
+
+.Hot-drop__header-nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.Hot-drop__header-img img{
+    width: 6.7rem;
+}
+.Hot-drop__header-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.Hot-drop__header-list ul li{
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-family: var(--font2);
+    font-weight: 600;
+}
+.bar {
+    display: none;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: white;
+}
+.Hot-drop__header-body{
+    /* display: grid;
+    grid-template-columns: 70% 35%; */
+    display: flex;
+    margin-top: 3.7rem;
+}
+.Hot-drop__header-body-content{
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 3rem 5rem 1rem 0;
+}
+.Hot-drop__header-body-content h1{
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 50px;
+    font-family: var(--font1);
+}
+.Hot-drop__header-body-content p{
+    font-size: 25px;
+    font-family: var(--font2);
+}
+.pink-text{
+    color: var(--pink-color);
+}
+.Hot-drop__header-body-content-btns {
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+}
+.btn1,.btn2{
+    max-width: 300px;
+    text-align: center;
+    justify-content: center;
+    padding: 18px 38px;
+    border-radius: 50px;
+    outline: none;
+    border: 0;
+    font-weight:bold;
+    font-size: 20px;
+    font-family: var(--font2);
+    cursor: pointer;
+}
+.btn1{
+    color: var(--pink-color);
+}
+.btn2{
+    color: #fff;
+    background: var(--pink-color);
+}
+.Hot-drop__header-body-hero{
+    display: grid;
+    padding-right: 2rem;
+}
+.Hot-drop__header-body-hero img{
+    width: 105%;
+}
+
+/*media queries*/
+@media screen and (max-width:1025px){
+    .Hot-drop__header-body{
+        /* grid-template-columns: none;
+        text-align: center;
+        grid-template-rows: 300px 1fr; */
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2rem;
+    }
+    .bar{
+        display: block;
+        cursor: pointer;
+    }
+    .Hot-drop__header-body-hero{
+        padding-right: 0;
+    }
+    .Hot-drop__header-body-hero{
+        justify-items: center;
+    }
+    .Hot-drop__header-body-hero img{
+     width: 50%;
+    }
+    .Hot-drop__header nav{
+        padding: 2rem 2rem 0rem 2rem
+    }
+    /* .Hot-drop__header-nav ul{
+        display: none;
+    } */
+    .Hot-drop__header-list{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .ul{
+        position: absolute;
+        left: 0;
+        top: 150%;
+        z-index: 100;
+        width: 100%;
+        list-style: none;
+        font-family: var(--font1);
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        background-color: #000;
+        padding: 15px;
+        /* transform: translateY(10px); */
+        transition: transform .4s;
+        opacity: 0;
+    }
+    .ul.active{
+        opacity: 1;
+        transform: translateY(-15px);
+    }
+    .Hot-drop__header-body-content{
+        padding: 1rem;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .Hot-drop__header-body-content h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .Hot-drop__header-body-content p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:700px){
+    .Hot-drop__header-body-hero img{
+        width: 60%;
+    }
+}
+@media screen and (max-width:500px){
+    .Hot-drop__header-body-hero img{
+        width: 70%;
+    }
+    .Hot-drop__header-body-content h1{
+        font-size: 37px;
+        line-height: 46px;
+    }
+    .Hot-drop__header-body-content p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .Hot-drop__header-body-content-btns{
+        flex-direction: column;
+        align-self: center;
+
+    }
+}

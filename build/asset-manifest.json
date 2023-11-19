@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f60b169.css",
+    "main.js": "/static/js/main.5a542efd.js",
+    "static/media/_Group 36770.png": "/static/media/64d27e7e6e11616a16a7a391_Group 36770.283d4e7049bc3eaae635.png",
+    "static/media/_Group 36745.png": "/static/media/64c8e9690a05a8dc4ae71eb5_Group 36745.756613f194f48ebcd304.png",
+    "static/media/_iPhone-13-Pro-Front-p-500.png": "/static/media/64c0f884d8a202f2d339540a_iPhone-13-Pro-Front-p-500.b8a628b76a1b99ee24de.png",
+    "static/media/_Frame 9788-p-500.png": "/static/media/64c0f884ec637971912d4f67_Frame 9788-p-500.792ba86d6a3814414efb.png",
+    "static/media/_microphone-p-800.jpeg": "/static/media/630e348760dd00f21403456e_microphone-p-800.91b0184faa6befc966dd.jpeg",
+    "static/media/_Group 1299-2_macbookgrey_front-p-800.png": "/static/media/637a9f98ecc8b47c728bbeba_Group 1299-2_macbookgrey_front-p-800.b1cc40ce31678e85d2ed.png",
+    "static/media/ven.png": "/static/media/ven.27e2468a9f40cf04f5c1.png",
+    "static/media/_apple-badge.svg": "/static/media/630e348760dd005ab603454f_apple-badge.7b847a15064d6396679aac3d20758797.svg",
+    "static/media/_F4.png": "/static/media/63980dce1925274830086792_F4.89244bf10e6e81469dd4.png",
+    "static/media/_F2.png": "/static/media/63980dcde7aba3a29be95809_F2.e229786e56450cdb5bd2.png",
+    "static/media/_F3.png": "/static/media/63980dce67761f561f271dbb_F3.cb91fd7415184d6522e8.png",
+    "static/media/_Techstars_Blinking.png": "/static/media/632149ed41e0510de6e577ad_Techstars_Blinking.ec7fa784f0491826cee9.png",
+    "static/media/_Logo for web.svg": "/static/media/630e348760dd00d247034585_Logo for web.8c77873692edc8680fd9c300cb87bbe7.svg",
+    "static/media/_instagram - icon.svg": "/static/media/630e348760dd0053b9034549_instagram - icon.56aa2be1ac28ad0432629d850f2d3fbb.svg",
+    "static/media/_twitter.svg": "/static/media/630e348760dd0059ba03455e_twitter.9fe37cbe3883f33d80dac0932c2a5405.svg",
+    "static/media/_tik-tok.svg": "/static/media/630e348760dd004f91034555_tik-tok.1156723cc57cc0d0f25238a7bc6e7503.svg",
+    "static/media/_linkedin - icon.svg": "/static/media/630e348760dd00482703454b_linkedin - icon.b768b746d8707567a252fae8e95d58be.svg",
+    "index.html": "/index.html",
+    "main.0f60b169.css.map": "/static/css/main.0f60b169.css.map",
+    "main.5a542efd.js.map": "/static/js/main.5a542efd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f60b169.css",
+    "static/js/main.5a542efd.js"
+  ]
+}

@@ -1,0 +1,61 @@
+.Hot-drop__featured{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.Hot-drop__featured-in-title{
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    font-family: var(--font1);
+}
+.Hot-drop__featured-in-companies{
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content:flex-start;
+}
+.Hot-drop__featured-in-companies div img{
+    width: 115%;
+}
+.Hot-drop__featured-brands{
+    display: flex;
+    flex-direction: column;
+}
+.Hot-drop__featured-brands-title{
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+.Hot-drop__featured-brands h2{
+ /* font-family: var(--font2); */
+ font-size: 36px;
+    font-family: var(--font1);
+    line-height: 33px;
+    letter-spacing: 1.5px;
+}
+.Hot-drop__featured-brands-img{
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    margin-top: 2.5rem;
+    /* flex-wrap: wrap; */
+}
+.Hot-drop__featured-brands-img img{
+    width: 35%;
+    border-radius: 10px;
+}
+@media screen and (max-width:660px){
+    .Hot-drop__featured-in-companies div img{
+        width: 120%;
+    }
+    .Hot-drop__featured-brands-img{
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    .Hot-drop__featured-brands-img img{
+        width: 40%;
+    }
+}
